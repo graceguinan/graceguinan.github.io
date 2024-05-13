@@ -1,7 +1,8 @@
-body {
-    background-image: url("uva_image.png");
+{
+    background: url(uva_image.png);
+    background-repeat: no-repeat;
+    background-size: auto;
   }
-
 h1 {
     color: lightgray;
   } 
