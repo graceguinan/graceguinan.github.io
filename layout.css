@@ -5,3 +5,7 @@ background {
   height: 300px;
   border: solid 2px red;
 }
+
+h1 {
+    color: blue;
+  } 
