@@ -1,4 +1,4 @@
-body {
+/* body {
     background-image:    url(uva_image.png);                    
     background-repeat:   no-repeat;
     background-position: center center;   
@@ -6,19 +6,16 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height:auto;
-    width:90%;       
+    height:100%;
+    width:100%; 
+           
 }
 
-
-
-
-/* body {
+body {
     background-color: lightpink;
-  } */
+  }
 
 h1 {
     color: red;
     background-color: rgb(232, 215, 218);
-    width: 110%;
   } 
