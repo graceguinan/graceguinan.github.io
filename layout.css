@@ -1,4 +1,4 @@
-/* body {
+body {
     background-image:    url(uva_image.png);                    
     background-repeat:   no-repeat;
     background-position: center center;   
@@ -9,13 +9,16 @@
     height:100%;
     width:100%; 
            
-} */
+}
 
-body {
+
+
+
+/* body {
     background-color: lightpink;
-  }
+  } */
 
 h1 {
     color: red;
-    background-color: lightpink;
+    background-color: rgb(232, 215, 218);
   } 

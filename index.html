@@ -6,11 +6,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="layout.css" type="text/css">
 </head>
+<style>
+    .flex {
+        display: flex;
+        justify-content: space-between;
+      }
+      /* Define the styles for the page borders */
+      .border-left {
+        width: 33%;
+        height: 100vh;
+        background-color: red;
+      }
+      .border-right {
+        width: 33%;
+        height: 100vh;
+        background-color: red;
+      }
+</style>
 <body>
+    <div class="flex">
+        <div class="border-left"></div>
+        <div>
     <!-- <img src="uva_website_img.JPEG" width="100%" height="auto" alt="UVA image">-->
-    <h1>Grace Guinan  <img src="bird_emoji2.png" width="3%" height="auto" alt="bird emoji"> </h1> 
-    <h1>Welcome</h1>
+    <h1>Grace Guinan  <img src="bird_emoji2.png" width="3%" height="auto" alt="bird emoji"> 
+        <br />  Welcome
+        <br /> 
+        <a href="page1.html">Link</a>
+    </h1></div>  <div class="border-right"></div> </div>
 
-    <a href="page1.html">Link</a>
+    
 </body>
 </html>
