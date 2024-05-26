@@ -1,5 +1,5 @@
 h2{
-    color: red;
+    font-size: 30px;
 }
 
 body {
@@ -17,6 +17,18 @@ body {
     margin: auto;
     color: rgb(247, 227, 230)
   }
+
+
+  .boxdiv2 {
+    width: 90vw;
+    height: 40vh;
+    padding: 4vh;
+    background-color: rgb(91, 11, 11);
+    margin: auto;
+    color: rgb(247, 227, 230)
+  }
+
+
   a:link {
     color: white;
     background-color: transparent;
