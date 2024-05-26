@@ -1,6 +1,13 @@
 h2{
+    font-size: 20px;}
+
+h3{
     font-size: 30px;
+    color:rgb(210,216,104);
+    padding: .8vh
 }
+
+
 
 body {
     background-image: url('images/uva_website_img.JPEG');
@@ -9,23 +16,25 @@ body {
 
   }
   .boxdiv {
+    text-align: center;
     width: 40vw;
-    height: 30vh;
+    height: 38vh;
     padding: 4vh;
-    border: 15px solid red;
-    background-color: rgb(91, 11, 11);
+    border: 15px solid 	rgb(210,216,104);
+    background-color: rgb(51, 67, 51);
     margin: auto;
-    color: rgb(247, 227, 230)
+    color: rgb(247, 227, 230);
+    border-radius: 25px;
   }
 
 
   .boxdiv2 {
-    width: 90vw;
-    height: 40vh;
+    width: 96vw;
+    height: 55vh;
     padding: 4vh;
-    background-color: rgb(91, 11, 11);
+    background-color: rgb(51, 67, 51);
     margin: auto;
-    color: rgb(247, 227, 230)
+    color: rgb(247, 227, 230);
   }
 
 
@@ -54,11 +63,12 @@ body {
   }
 
   div.gallery {
-    border: 1px solid #ccc;
+    border: 3px ;
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 3px solid red;
+    opacity: .75
   }
   
   div.gallery img {
@@ -69,7 +79,13 @@ body {
   div.desc {
     padding: 15px;
     text-align: center;
-    color: white
+    color: #800080;
+    background-color: rgb(210,216,104);
+    border-radius: 25px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
   }
   
   * {
