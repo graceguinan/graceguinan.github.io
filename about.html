@@ -13,8 +13,8 @@
 
           }
           .boxdiv {
-            width: 40vw;
-            height: 30vh;
+            width: 50vw;
+            height: 40vh;
             padding: 40px;
             border: 15px solid red;
             background-color: rgb(91, 11, 11);
@@ -52,6 +52,55 @@
             background-color: transparent;
             text-decoration: underline;
           }
+
+
+          div.gallery {
+            border: 1px solid #ccc;
+          }
+          
+          div.gallery:hover {
+            border: 1px solid #777;
+          }
+          
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          
+          div.desc {
+            padding: 15px;
+            text-align: center;
+            color: white
+          }
+          
+          * {
+            box-sizing: border-box;
+          }
+          
+          .responsive {
+            padding: 0 10px;
+            float: left;
+            width: 20%;
+          }
+          
+          @media only screen and (max-width: 700px) {
+            .responsive {
+              width: 49.99999%;
+              margin: 6px 0;
+            }
+          }
+          
+          @media only screen and (max-width: 500px) {
+            .responsive {
+              width: 100%;
+            }
+          }
+          
+          .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
         </style>
 </head>
 <body>
@@ -70,6 +119,48 @@
       <br>
       <br>
       <br>
+
+
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/graceradio.JPEG">
+            <img src="images/graceradio.JPEG" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc"> At WXTJ Student Radio hosting my weekly show: "Goodness Gracious"</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/onaboat.JPG">
+            <img src="images/onaboat.JPG" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/myposter.jpg">
+            <img src="images/myposter.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/apple_emoji.png">
+            <img src="images/apple_emoji.png" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
 
     <div class="boxdiv2">
 
@@ -92,6 +183,7 @@
             participated in the Math Department's Directed Reading Program (DRP), w
         </p>
         </div>
+
 
 </body>
 </html>
