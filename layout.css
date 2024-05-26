@@ -1,3 +1,78 @@
 h2{
-    font-size: 30px;
+    color: red;
 }
+
+body {
+    background-image: url('images/uva_website_img.JPEG');
+    background-attachment: fixed;
+    background-size: cover;
+
+  }
+  .boxdiv {
+    width: 40vw;
+    height: 30vh;
+    padding: 4vh;
+    border: 15px solid red;
+    background-color: rgb(91, 11, 11);
+    margin: auto;
+    color: rgb(247, 227, 230)
+  }
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: red;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 10px;
+    float: left;
+    width: 25%;
+  }
+  
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
