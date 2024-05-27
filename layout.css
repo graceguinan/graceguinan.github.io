@@ -20,7 +20,7 @@ body {
     width: 40vw;
     height: 38vh;
     padding: 4vh;
-    border: 15px solid 	rgb(210,216,104);
+    border: 15px solid 	rgb(210,216,104, .6);
     background-color: rgb(51, 67, 51);
     margin: auto;
     color: rgb(247, 227, 230);
@@ -80,7 +80,7 @@ body {
     padding: 15px;
     text-align: center;
     color: #800080;
-    background-color: rgb(210,216,104);
+    background-color: rgb(210,216,104, .8);
     border-radius: 25px;
     border-top-right-radius: 45px;
     border-bottom-right-radius: 45px;
@@ -104,3 +104,35 @@ body {
     display: table;
     clear: both;
   }
+
+  .footer {
+    background-color: red;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 17vw;
+  }
+  
+  /* Style the links inside the navigation bar */
+.footer a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .footer a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .footer a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
