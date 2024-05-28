@@ -170,3 +170,7 @@ body {
     color: white;
   }
   
+
+  .mobiletext{
+    display:none;
+}

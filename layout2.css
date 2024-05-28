@@ -1,4 +1,10 @@
 
+.mobiletext{
+    size: 20px;
+    color: red;
+}
+
+
 
 h2{
     display:none;
