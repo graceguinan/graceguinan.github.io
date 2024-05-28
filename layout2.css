@@ -5,6 +5,9 @@ h6{
 }
 
 
+iframe{
+    display: none;
+}
 
 h2{
     display:none;
