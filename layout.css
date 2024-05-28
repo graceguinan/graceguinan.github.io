@@ -1,17 +1,9 @@
 @media only screen and (max-width: 400px) {
-    #h2 {
+    #boxdiv {
       display: none;
     }
 
-    #h3 {
-        display: none;
-      }
-
-      #xyz-dialog {
-        display: none;
-      }
-  }
-
+}
 
 
 h2{
