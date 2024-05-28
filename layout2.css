@@ -1,2 +1,111 @@
 
 
+h2{
+    display:none;
+}
+
+h1{
+    display:none;
+}
+
+
+h3{
+    display:none;
+}
+
+
+  .xyz-dialog {
+    display:none;
+  }
+  
+  .xyz-dialog::after {
+    display:none;
+  }
+
+ 
+
+.title {
+    display:none;
+  }
+
+.body {
+    display:none;
+}
+
+
+body {
+    display:none;
+
+  }
+  .boxdiv {
+    display:none;
+  }
+
+
+  .boxdiv2 {
+    display:none;
+  }
+
+
+  a:link {
+    display:none;
+  }
+  
+  a:visited {
+    display:none;
+  }
+  
+  a:hover {
+    display:none;
+  }
+  
+  a:active {
+    display:none;
+  }
+
+  div.gallery {
+    display:none;
+  }
+  
+  div.gallery:hover {
+    display:none;
+  }
+  
+  div.gallery img {
+    display:none;
+  }
+  
+  div.desc {
+    display:none;
+  }
+  
+
+  
+  .responsive {
+    display:none;
+  }
+  
+  
+  .clearfix:after {
+    display:none;
+  }
+
+  .footer {
+    display:none;
+  }
+  
+  /* Style the links inside the navigation bar */
+.footer a {
+    display:none;
+  }
+  
+  /* Change the color of links on hover */
+  .footer a:hover {
+    display:none;
+  }
+  
+  /* Add a color to the active/current link */
+  .footer a.active {
+    display:none;
+  }
+  
